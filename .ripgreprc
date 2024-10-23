@@ -1,0 +1,8 @@
+# Always show hidden files.
+--hidden
+
+# Defaults searches to insensitive casing unless the search query itself has mixed casings.
+--smart-case
+
+# Respect .gitignore files regardless if they're placed inside a repo or not.
+--no-require-git
