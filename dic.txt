@@ -5,12 +5,16 @@ dantemogrim
 dotfiles
 esbenp
 fira
+fullscreen
 hotpink
 hubspot
+keybinds
 intelephense
-Monaspace
+mogrim
+monaspace
 monu
 nanorc
+pbcopy
 phar
 phpcs
 pixelbyte
@@ -20,3 +24,6 @@ shellcheck
 tailwindcss
 titlecase
 uroot
+viewports
+xclip
+zellij
