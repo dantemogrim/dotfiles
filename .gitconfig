@@ -1,0 +1,27 @@
+[user]
+	name = Dante Mogrim
+[core]
+    # Prefer LF regardless of OS.
+	autocrlf = false
+	excludesFile = "~/.gitignore"
+[init]
+	defaultBranch = main
+[pull]
+	ff = only
+[merge]
+	ff = false
+[alias]
+	# Check that your last push still matches what's on the server.
+	force-push = push --force-with-lease
+	# Stash local changes piece-by-piece.
+	pie-stash = stash -p
+	# Create a stash of local changes before each pull & re-apply it afterwards.
+	pull-stash = "!f() { git stash push --all -m 'autostash' && git pull && git stash pop; }; f"
+	rank = shortlog --no-merges --numbered --summary
+	uncommit = reset HEAD^
+	unstage = reset HEAD --
+[rerere]
+	# Let Git memorize conflicts and their resolutions.
+	enabled = true
+	# Automatically stage these resolutions.
+	autoUpdate = true
