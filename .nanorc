@@ -1,0 +1,37 @@
+# $ man nanorc
+
+# set autoindent
+# ~/.nano_history for saving and reading.
+set historylog
+set tabsize 2
+set linenumbers
+# Enable mouse support.
+set mouse
+# Allow multiple file buffers (inserting a file will put it into a separate buffer).
+# You must have configured with --enable-multibuffer
+set multibuffer
+# No help shortcuts at the bottom of the screen.
+# set nohelp
+# Don't wrap text at all.
+# set nowrap
+# Wrap words that otherwise won't fit in screen.
+set softwrap
+# Enable smooth scrolling.
+set smooth
+# Make the Home key jump to beginning of a line.
+set smarthome
+
+# Legal colors are: white, black, red, blue, green, yellow, magenta, cyan,
+# Use the prefix "bright" to force stronger color highlight.
+# If your CLI supports transparency, not specifying a color will result in a transparent option.
+
+# icolor fgcolor,bgcolor regex ...
+# color fgcolor,bg-color start="sr" end="er"
+# icolor cyan,yellow,
+
+set titlecolor cyan,black
+# set focuscolor white,blue
+# set menucolor yellow
+# set statuscolor
+# set keycolor
+set numbercolor yellow
