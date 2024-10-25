@@ -1,0 +1,10 @@
+{
+  "default": true,
+  "first-line-h1": false,
+  "line-length": {
+    "line_length": 80
+  },
+  "no-duplicate-heading": false,
+  "no-hard-tabs": false,
+  "no-inline-html": false
+}
