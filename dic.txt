@@ -9,7 +9,9 @@ fullscreen
 hotpink
 hubspot
 keybinds
+inspo
 intelephense
+lazygit
 mogrim
 monaspace
 monu
@@ -21,9 +23,16 @@ pixelbyte
 rgba
 ripgreprc
 shellcheck
+statusline
+stylefix
 tailwindcss
 titlecase
+tokyonight_storm
+topo
+unstaged
 uroot
 viewports
+worktree
+worktrees
 xclip
 zellij
