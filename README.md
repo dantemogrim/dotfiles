@@ -14,5 +14,19 @@
 
 ## 📖 Instructions
 
-* Clone me into `$HOME`.
-* Download [Homebrew](https://brew.sh/).
+_Requirements:_
+- [Git](https://git-scm.com/)
+- [Homebrew](https://brew.sh/).
+
+- Clone this repository to your `$HOME`/`~` directory.
+- Install all applications by running the following commands from your CLI:
+
+```shell
+# Ensure you have sufficient permissions to run scripts from the repo
+# (if this doesn't work, add `sudo` to the start of the command).
+$ chmod -R u+rwx ~/dotfiles
+# Install all the things.
+$ brew bundle install --file=~/dotfiles/Brewfile
+```
+
+- *Done!*🎉 There are plenty of configurations available from this repo that you can copy and paste over to your local home directory. I've deliberately _not_ made a symlinking script since my tools & config choices vary depending on whichever computer I'm working on. I do however store most of my faves here for safekeeping.
