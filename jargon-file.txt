@@ -3,7 +3,9 @@ arrayagg
 augroup
 autocmd
 autoindent
+autoremove
 backtab
+bcround
 bmewburn
 callout
 callouts
@@ -15,6 +17,7 @@ curlrc
 dantemogrim
 devicons
 dirtystate
+docblocks
 dotfiles
 esbenp
 espanso
@@ -41,6 +44,7 @@ intelephense
 invalidstate
 keybind
 keymap
+laravel
 lastmodifieddate
 lazydocker
 lazygit
@@ -67,6 +71,7 @@ nohelp
 nowrap
 nvim
 pbcopy
+pearcleaner
 pgdown
 pgup
 phar
@@ -87,6 +92,7 @@ shiftwidth
 showupstream
 smarthome
 softwrap
+soundsource
 spelllang
 stagedstate
 stanalyze
