@@ -1,0 +1,69 @@
+# See: https://github.com/ghostty-org/ghostty/blob/main/src/config/Config.zig
+# See: https://ghostty.org/docs/config/reference
+
+auto-update = download
+
+clipboard-read = allow
+clipboard-write = allow
+
+# Treat the option key as alt:
+macos-option-as-alt = true
+
+# The syntax is "key = value". The whitespace around the equals doesn't matter.
+
+# Shortcut to reload Ghostty: shift+ctrl/cmd+,
+
+# background = 282c34
+# foreground = ffffff
+
+# To see a list of available themes, run `$ ghostty +list-themes`.
+# To specify a different theme for light and dark mode, use the following syntax: `light:theme-name,dark:theme-name`
+# For example: `light:rose-pine-dawn,dark:rose-pine`.
+# rebecca/subliminal/synthwave-everything/teerb/tokyonight-storm
+# iceberg-dark/jellybeans/later this evening/lovelace/tomorrow night eighties
+# 0x96f/arcoiris/aura/blazer/heeler/mellow/pnevma
+# theme = pnevma
+theme = dracula+
+
+# split-divider-color = #2f2a42
+unfocused-split-opacity = 0.5
+# unfocused-split-fill = #2f2a42
+
+keybind = alt+shift+s=new_split:down
+keybind = alt+shift+up=goto_split:top
+keybind = alt+shift+down=goto_split:bottom
+keybind = alt+shift+t=new_tab
+keybind = alt+shift+i=inspector:toggle
+keybind = alt+shift+c=copy_to_clipboard
+keybind = alt+shift+p=paste_from_selection
+keybind = alt+shift+t=new_tab
+keybind = alt+shift+w=close_surface
+
+# selection-foreground = `#RRGGBB`
+# selection-background = `RRGGBB`
+# selection-invert-fg-bg = false
+
+# Comments start with a `#` and are only valid on their own line.
+# Blank lines are ignored!
+
+# keybind = ctrl+z=close_surface
+# keybind = ctrl+d=new_split:right
+
+# Empty values reset the configuration to the default value
+font-family = "GohuFont 14 Nerd Font"
+# Default is 13/12 depending on OS.
+font-size = 15
+
+# Default is 1.0.
+# background-opacity = 0.99
+cursor-opacity = 0.8
+
+# Default is 2.
+window-padding-x = 10
+window-padding-y = 10
+
+window-height = 40
+window-width = 120
+
+clipboard-read = allow
+clipboard-write = allow
