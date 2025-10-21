@@ -29,4 +29,4 @@ $ chmod -R u+rwx ~/dotfiles
 $ brew bundle install --file=~/dotfiles/Brewfile
 ```
 
-- *Done!*🎉 There are plenty of configurations available from this repo that you can copy and paste over to your local home directory. I've deliberately _not_ made a symlinking script since my tools & config choices vary depending on whichever computer I'm working on. I do however store most of my faves here for safekeeping.
+- **Done!** 🎉 There are plenty of configurations available from this repo that you can copy and paste over to your local home directory. I've deliberately _not_ made a symlinking script since my tools & config choices vary depending on whichever computer I'm working on. I do however store most of my faves here for safekeeping.
