@@ -14,9 +14,11 @@
 
 ## 📖 Instructions
 
-_Requirements:_
+<details><summary>:shipit: Prerequisites</summary>
+
 - [Git](https://git-scm.com/)
-- [Homebrew](https://brew.sh/).
+- [Homebrew](https://brew.sh/)
+</details>
 
 - Clone this repository to your `$HOME`/`~` directory.
 - Install all applications by running the following commands from your CLI:
