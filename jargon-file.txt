@@ -1,7 +1,10 @@
 abbi
 arrayagg
+aspnetcore
+attributesfile
 augroup
 autocmd
+autofac
 autoindent
 autoremove
 backtab
@@ -32,6 +35,7 @@ fullscreentype
 getchar
 getline
 ghostty
+gitdir
 highdpi
 historylog
 hotpink
@@ -54,6 +58,7 @@ lazysql
 lazyvim
 linenumbers
 lualine
+manpager
 mago
 mapleader
 maplocalleader
@@ -84,11 +89,13 @@ pipestatus
 pixelbyte
 poimandres
 relativenumber
+rerere
 rgba
 ripgreprc
 shellcheck
 shfmt
 shiftwidth
+shortlog
 showupstream
 smarthome
 softwrap
