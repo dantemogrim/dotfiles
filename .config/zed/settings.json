@@ -1,0 +1,61 @@
+{
+	"active_pane_modifiers": {
+		"inactive_opacity": 0.7
+	},
+	"agent": {
+		"default_model": {
+			"provider": "copilot_chat",
+			"model": "gpt-5-mini"
+		},
+		"model_parameters": [],
+		"use_modifier_to_send": true
+	},
+	"autosave": "on_focus_change",
+	"buffer_font_size": 14.0,
+	"close_on_file_delete": true,
+	"colorize_brackets": true,
+	"buffer_font_family": ".ZedMono",
+	"diagnostics": {
+		"inline": {
+			"enabled": true
+		}
+	},
+	"git": {
+		"inline_blame": {
+			"show_commit_summary": true
+		}
+	},
+	"hard_tabs": true,
+	"icon_theme": "Catppuccin Macchiato",
+	"inlay_hints": {
+		"enabled": true
+	},
+	"outline_panel": {
+		"indent_guides": {
+			"show": "always"
+		}
+	},
+	"preview_tabs": {
+		"enable_preview_multibuffer_from_code_navigation": true,
+		"enable_preview_from_file_finder": true
+	},
+	"prettier": {
+		"allowed": true
+	},
+	"sticky_scroll": {
+		"enabled": true
+	},
+	"tabs": {
+		"file_icons": true,
+		"git_status": true
+	},
+	"theme": "Noctis Minimus",
+	"title_bar": {
+		"show_menus": true,
+		"show_branch_icon": true
+	},
+	"ui_font_family": ".ZedMono",
+	"ui_font_size": 15.0,
+	"use_smartcase_search": true,
+	"use_system_window_tabs": true
+}
