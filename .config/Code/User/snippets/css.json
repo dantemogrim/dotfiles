@@ -1,0 +1,11 @@
+{
+	"prefer-color-scheme": {
+		"prefix": "pcs",
+		"body": [
+			"@media (prefers-color-scheme: ${1|light,dark|}) {",
+			"  $0",
+			"}"
+		],
+		"description": "Media query for preferred color scheme"
+	}
+}

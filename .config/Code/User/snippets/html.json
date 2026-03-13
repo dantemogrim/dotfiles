@@ -1,0 +1,16 @@
+{
+	"script tag": {
+		"prefix": "js",
+		"body": [
+			"<script src=\"$0\"></script>",
+		],
+		"description": "Insert a script tag"
+	},
+	"stylesheet link": {
+		"prefix": "css",
+		"body": [
+			"<link rel=\"stylesheet\" href=\"$0\">",
+		],
+		"description": "Insert a stylesheet link"
+	}
+}
