@@ -1,15 +1,15 @@
 <div align="center">
-	<img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExenU2aDRkYjVraWJjMHp2c25qcGZoY2FoYTlhMzkwaHQ2ZzVqanY3NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/HCwnYWnMgLZUW1BtP2/giphy.gif"
-	alt="A cute, anime chicken typing away on a desk with dual monitors and a split keyboard."
-	>
+ <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExenU2aDRkYjVraWJjMHp2c25qcGZoY2FoYTlhMzkwaHQ2ZzVqanY3NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/HCwnYWnMgLZUW1BtP2/giphy.gif"
+ alt="A cute, anime chicken typing away on a desk with dual monitors and a split keyboard."
+ >
 </div>
 
 <h1 align="center">
-	🌑 .dotfiles 🌑
+ 🌑 .dotfiles 🌑
 </h1>
 
 > [!IMPORTANT]
-> This project is mainly intended for personal use *(or at the most as a source of inspo)*.
+> This project is mainly intended for personal use _(or at the most as a source of inspo)_.
 > Use at your own risk.
 
 ## 📖 Instructions
@@ -18,6 +18,7 @@
 
 - [Git](https://git-scm.com/)
 - [Homebrew](https://brew.sh/)
+
 </details>
 
 - Clone this repository to your `$HOME`/`~` directory.
@@ -31,4 +32,6 @@ $ chmod -R u+rwx ~/dotfiles
 $ brew bundle install --file=~/dotfiles/Brewfile
 ```
 
-- **Done!** 🎉 There are plenty of configurations available from this repo that you can copy and paste over to your local home directory. I've deliberately _not_ made a symlinking script since my tools & config choices vary depending on whichever computer I'm working on. I do however store most of my faves here for safekeeping.
+- **Done!** 🎉
+
+There are plenty of configurations available from this repo that you can copy and paste over to your local home directory. I've deliberately _not_ made a symlinking script since my tools & config choices vary depending on whichever computer I'm working on. I do however store most of my faves here for safekeeping.
