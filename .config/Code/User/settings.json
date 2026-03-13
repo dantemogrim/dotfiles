@@ -62,10 +62,12 @@
 	"editor.showFoldingControls": "never",
 	"editor.snippetSuggestions": "top",
 	"explorer.compactFolders": false,
-	"files.exclude": {
-		"*.g.cs": true,
-		"**/var": true
-	},
+  // Hide from the Explorer.
+  "files.exclude": {
+    "*.g.cs": true,
+    "**/.git": false,
+    "**/var": true,
+  },
 	"files.autoSave": "onFocusChange",
 	"files.insertFinalNewline": true,
 	"files.trimFinalNewlines": true,
@@ -78,6 +80,14 @@
 	"javascript.referencesCodeLens.enabled": true,
 	"javascript.referencesCodeLens.showOnAllFunctions": true,
 	"javascript.updateImportsOnFileMove.enabled": "always",
+	// Hide from Search results.
+  "search.exclude": {
+    "*.g.cs": true,
+    "**/.git": true,
+    "**/var": true,
+    "node_modules": true,
+    "package-lock.json": true,
+  },
 	"typescript.referencesCodeLens.enabled": true,
 	"typescript.referencesCodeLens.showOnAllFunctions": true,
 	"typescript.updateImportsOnFileMove.enabled": "always",
