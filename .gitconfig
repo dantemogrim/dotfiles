@@ -6,14 +6,24 @@
 	autocrlf = false
   attributesfile = "~/.gitattributes"
 	excludesFile = "~/.gitignore"
+	pager = delta
 [blame]
     ignoreRevsFile = .git-blame-ignore-revs
+[diff]
+	algorithm = histogram
 [init]
 	defaultBranch = main
+[merge]
+	conflictStyle = zdiff3
+	ff = false
 [pull]
 	ff = only
-[merge]
-	ff = false
+; # REuse REcorded REsolution.
+[rerere]
+	; Memorize merge conflict resolutions and reuse them.
+	enabled = true
+	; Automatically stage these resolutions.
+	autoUpdate = true
 [alias]
 	; Check that your last push still matches what's on the server.
 	force-push = push --force-with-lease
@@ -24,15 +34,11 @@
 	rank = shortlog --no-merges --numbered --summary
 	uncommit = reset HEAD^
 	unstage = reset HEAD --
-; # REuse REcorded REsolution.
-[rerere]
-	; Memorize merge conflict resolutions and reuse them.
-	enabled = true
-	; Automatically stage these resolutions.
-	autoUpdate = true
 
 ; Git reads ~/.gitconfig top to bottom.
 ; Default settings can be overridden by later settings.
+; _Note!_ You can *not* verify your current settings with `git config --list`.
+; To see e.g. which `user.email` is active, use: `$ git config user.email`
 ; Remember to set a trailing slash to include sub-repositories.
 ; [includeIf "gitdir:~/Developer/work/"]
 ;	path = ~/.gitconfig-work
