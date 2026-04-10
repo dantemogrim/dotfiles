@@ -1,0 +1,3 @@
+#!/usr/bin/env zsh
+
+curl -s "https://v2.jokeapi.dev/joke/Any?format=txt&safe-mode"
