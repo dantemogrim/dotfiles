@@ -1,0 +1,36 @@
+{
+	"class": {
+		"prefix": "class",
+		"body": [
+			"<summary>",
+			"\t$1",
+			"</summary>",
+			"public class ${1:ClassName}",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "Create a class"
+	},
+	"interface": {
+		"prefix": "interface",
+		"body": [
+			"<summary>",
+			"\t$1",
+			"</summary>",
+			"public interface I${1:InterfaceName}",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "Create an interface"
+	},
+	"console write line": {
+		"prefix": "cw",
+		"body": [
+			"Console.WriteLine($1);",
+			"$0"
+		],
+		"description": "Write to console"
+	}
+}
