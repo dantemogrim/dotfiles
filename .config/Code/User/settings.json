@@ -1,10 +1,16 @@
 {
 	"[csharp]": {
-		"editor.defaultFormatter": "EditorConfig.EditorConfig"
+		    "editor.defaultFormatter":"ms-dotnettools.csharp",
 	},
 	"[css][html][javascript][json][jsonc][markdown][typescript]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
+	  "[dockercompose][dockerfile][ignore][shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format",
+  },
+  "[fish]": {
+    "editor.defaultFormatter": "bmalehorn.vscode-fish",
+  },
 	"breadcrumbs.showArrays": false,
 	"breadcrumbs.showBooleans": false,
 	"breadcrumbs.showClasses": false,
@@ -61,13 +67,20 @@
 	"editor.minimap.enabled": false,
 	"editor.showFoldingControls": "never",
 	"editor.snippetSuggestions": "top",
+	"errorLens.enabledDiagnosticLevels": [
+		"error",
+		"warning",
+		"info",
+		"hint"
+	],
 	"explorer.compactFolders": false,
-  // Hide from the Explorer.
-  "files.exclude": {
-    "*.g.cs": true,
-    "**/.git": false,
-    "**/var": true,
-  },
+	 "files.eol": "\n",
+	// Hide from the Explorer.
+	"files.exclude": {
+		"*.g.cs": true,
+		"**/.git": false,
+		"**/var": true,
+	},
 	"files.autoSave": "onFocusChange",
 	"files.insertFinalNewline": true,
 	"files.trimFinalNewlines": true,
@@ -77,20 +90,17 @@
 	},
 	"git.blame.editorDecoration.enabled": true,
 	"git.blame.statusBarItem.enabled": true,
-	"javascript.referencesCodeLens.enabled": true,
-	"javascript.referencesCodeLens.showOnAllFunctions": true,
-	"javascript.updateImportsOnFileMove.enabled": "always",
+	"js/ts.referencesCodeLens.enabled": true,
+	"js/ts.referencesCodeLens.showOnAllFunctions": true,
+	"js/ts.updateImportsOnFileMove.enabled": "always",
 	// Hide from Search results.
-  "search.exclude": {
-    "*.g.cs": true,
-    "**/.git": true,
-    "**/var": true,
-    "node_modules": true,
-    "package-lock.json": true,
-  },
-	"typescript.referencesCodeLens.enabled": true,
-	"typescript.referencesCodeLens.showOnAllFunctions": true,
-	"typescript.updateImportsOnFileMove.enabled": "always",
+	"search.exclude": {
+		"*.g.cs": true,
+		"**/.git": true,
+		"**/var": true,
+		"node_modules": true,
+		"package-lock.json": true,
+	},
 	"workbench.activityBar.location": "top",
 	"workbench.editor.wrapTabs": true
 }
