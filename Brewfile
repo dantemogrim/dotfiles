@@ -2,7 +2,10 @@ tap "buo/cask-upgrade"
 tap "dunglas/frankenphp"
 tap "felixkratz/formulae"
 tap "oven-sh/bun"
-tap "shivammathur/php"
+# CLI tool for Angular
+brew "angular-cli"
+# Microsoft Azure CLI 2.0
+brew "azure-cli"
 # Bourne-Again SHell, a UNIX command interpreter
 brew "bash"
 # Clone of cat(1) with syntax highlighting and Git integration
@@ -31,6 +34,12 @@ brew "fnm"
 brew "fzf"
 # GitHub command-line tool
 brew "gh"
+# Distributed revision control system
+brew "git"
+# Syntax-highlighting pager for git and diff output
+brew "git-delta"
+# Hex viewer/editor
+brew "hexhog"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
 # Lazier way to manage everything docker
@@ -49,6 +58,8 @@ brew "miller"
 brew "nano"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
+# Port scanning utility for large networks
+brew "nmap"
 # Shell command parallelization utility
 brew "parallel"
 # Tool to automatically fix PHP coding standards issues
@@ -67,6 +78,8 @@ brew "ripgrep"
 brew "rust"
 # Opinionated Lua code formatter
 brew "stylua"
+# Subdomain discovery tool
+brew "subfinder"
 # Modern and pretty fancy file manager for the terminal
 brew "superfile"
 # Command-line interface to the freedesktop.org trashcan
@@ -87,10 +100,16 @@ brew "oven-sh/bun/bun"
 cask "alt-tab"
 # Screen capturing tool
 cask "cleanshot"
+# Plain-text editor for web pages, program source codes and more
+cask "coteditor"
 # Universal database tool and SQL client
 cask "dbeaver-community"
+# Online diagram software
+cask "drawio"
 # Cross-platform Text Expander written in Rust
 cask "espanso"
+# Web browser
+cask "firefox"
 cask "font-commit-mono-nerd-font"
 cask "font-departure-mono-nerd-font"
 cask "font-gohufont-nerd-font"
@@ -113,10 +132,8 @@ cask "imageoptim"
 cask "insomnia"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
-# Menu bar manager
-cask "jordanbaird-ice"
-# Keyboard shortcut utility
-cask "keyboard-cowboy"
+# Blocks all Keyboard and TouchBar input
+cask "keyboardcleantool"
 # ZSA keyboard firmware flasher
 cask "keymapp"
 # 2D game framework for Lua
@@ -131,8 +148,6 @@ cask "obsidian"
 cask "onyx"
 # Utility to uninstall apps and remove leftover files from old/uninstalled apps
 cask "pearcleaner"
-# Control your tools with a few keystrokes
-cask "raycast"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
 # Team communication and collaboration software
@@ -165,10 +180,10 @@ vscode "davidanson.vscode-markdownlint"
 vscode "dbaeumer.vscode-eslint"
 vscode "eamodio.gitlens"
 vscode "enkia.tokyo-night"
+vscode "editorconfig.editorconfig"
 vscode "esbenp.prettier-vscode"
 vscode "formulahendry.auto-rename-tag"
 vscode "foxundermoon.shell-format"
-vscode "github.copilot"
 vscode "github.copilot-chat"
 vscode "github.vscode-github-actions"
 vscode "golang.go"
@@ -195,7 +210,4 @@ vscode "timonwong.shellcheck"
 vscode "tyriar.sort-lines"
 vscode "ue.alphabetical-sorter"
 vscode "usernamehw.errorlens"
-vscode "vincaslt.highlight-matching-tag"
-vscode "wallabyjs.quokka-vscode"
 vscode "wix.vscode-import-cost"
-vscode "yzhang.markdown-all-in-one"
