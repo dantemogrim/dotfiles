@@ -1,0 +1,20 @@
+matches:
+  - trigger: ":pe"
+    replace: "mogrimdante@gmail.com"
+  - trigger: ":date"
+    label: "YYYY-MM-DD"
+    replace: "{{today}}"
+    vars:
+      - name: today
+        type: date
+        params:
+          format: "%Y-%m-%d"
+  - trigger: ":shrug"
+    replace: "¯\\_(ツ)_/¯"
+    label: "shrug"
+  - trigger: ":tableflip"
+    replace: "(╯°□°）╯︵ ┻━┻"
+    label: "table flip"
+  - trigger: ":unflip"
+    replace: "┬─┬ ノ( ゜-゜ノ)"
+    label: "unflip"

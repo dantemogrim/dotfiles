@@ -1,0 +1,7 @@
+matches:
+  - trigger: ":links"
+    replace: "## 🔗 Links"
+    label: "markdown links section"
+  - trigger: ":details-summary"
+    replace: "<details>\n<summary>Summary</summary>\n\nDetails\n\n</details>"
+    label: "html details summary"
